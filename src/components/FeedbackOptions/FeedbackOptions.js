@@ -3,7 +3,7 @@ import s from './FeedbackOptions.module.css';
 import PropTypes from 'prop-types';
 
 function FeedbackOptions({ options, onLeaveFeedback }) {
-  // console.log(options);
+  console.log(options);
 
   return (
     <ul className={s.listButton}>
